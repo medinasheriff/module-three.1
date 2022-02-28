@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grade calculator</title>
+    <style>
+        /*div {background-color: rgb(109, 100, 100); line-height: 2.5em;
+             font-family: 'fantasy', cursive; width:37%; height:400px; }
+             #instruction {background-color: black; color: white; margin-top: 100px;}*/
+
+    </style>
+</head>
+<body>
+
+    <div>
+     <!-- <h2>STUDENTS GRADE CALCULATOR.</h2><hr>
+        <P>The highest mark for your assessment is 100. 
+            Your grades have been divided into 3 categories:</P>
+            <ul>
+                <li>A = Excellent</li>
+                <li>C = Average Credit, and</li>
+                <li>F = Fail</li>
+            </ul>
+            <p id="instruction">Enter your mark into the prompt box to retrieve your grade.    
+        </P> -->
+    </div>
+    <script>
+        var grade= mark;
+        var mark= prompt ('Enter your mark')
+        if (mark>100) {alert('wrong mark input');}
+        else if (mark>=70){alert ('your grade is A');}
+        else if (mark<=40) {alert ('your grade is F');}
+        else {alert ('your grade is C');}
+    </script>
+</body>
+</html>
